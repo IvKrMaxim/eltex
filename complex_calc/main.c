@@ -4,7 +4,7 @@ int main () {
     int ch;
 
     do {
-	printf("1. Сложение\n");
+	printf("1.  Сложение\n");
 	printf("2. Вычитание\n");
 	printf("3. Умножение\n");
 	printf("4. Деление\n");
