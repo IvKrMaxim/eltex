@@ -2,7 +2,7 @@
 
 int main () {
     int ch;
-    
+
     do {
 	printf("1. Сложение\n");
 	printf("2. Вычитание\n");
