@@ -1,0 +1,2 @@
+#!/bin/bash
+`nasm -f elf ${1} && gcc -m32 ${2}.o -o ${2}`

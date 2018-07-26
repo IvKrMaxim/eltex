@@ -1,0 +1,16 @@
+long a = 0;
+int ters;
+int f;
+scan f;
+for (ters = 0; ters < 20; ters = ters + 1) {
+    while (a < 3) {
+	a = a + 1;
+    }
+    if (a == 3) {
+	a = a * 10;
+    }
+    a = a + 1;
+}
+a = a / 2 + (a * 2) / 10 + 1000 / 10;
+print a;
+print f;

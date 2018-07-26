@@ -1,6 +1,5 @@
 #include "calculator.h"
 
-
 int main () {
     int ch;
 
@@ -11,7 +10,7 @@ int main () {
 	printf("4. Деление\n");
 	printf("5. Выход\n");
 	printf("Выберите действие: ");
-	scanf("%d", &ch);
+	scanf("%d", &ch)
 	switch (ch) {
 	    case 1:
 		sum ();
